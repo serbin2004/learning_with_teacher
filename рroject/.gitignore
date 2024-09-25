@@ -1,0 +1,22 @@
+
+
+# Исключаем все файлы в директории .ipynb_checkpoints
+.ipynb_checkpoints/
+
+# Исключаем системные файлы macOS
+.DS_Store
+
+# Исключаем бинарные файлы и сборочные артефакты
+*.o
+*.exe
+
+# Исключаем файлы настроек IDE
+.idea/
+.vscode/
+
+# Исключаем лог-файлы и временные данные
+*.log
+/tmp/.DS_Store
+.ipynb_checkpoints/
+*.log
+/tmp/
